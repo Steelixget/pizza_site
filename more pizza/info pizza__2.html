@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title> ЧТО-ТО С ЧЕМ-ТО </title>
+
+	<meta charset="utf-8">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+</head>
+<body>
+	<div class="container-sm">
+		<div class="content" >
+			<div class=" cardd card mb-3" >				<!--style="max-width: 540px;" -->
+
+				<div class="row g-0">
+
+					<div class="col-md-4">
+						<img src="../img/Пицца/2.jpeg" id="map"  alt="...">
+					</div>
+					<div class="col-md-8">
+						<div class="cardd-body">
+							<h5 class="card-title1">Двойной цыпленок</h5>
+							<!-- -->
+
+
+							<script type="text/javascript">
+								function changeLink1()
+								{
+									document.getElementById('myAnchor').innerHTML="25 см, традиционное тесто, 360 г";
+									document.getElementById('myAnchor').href="http://shpargalkablog.ru/2011/07/uporyadochet-tablitsu-po-alfavitu.html";
+									document.getElementById('myAnchor').target="_blank";
+								}
+								function changeLink2()
+								{
+									document.getElementById('myAnchor').innerHTML="30 см, традиционное тесто, 520 г";
+									document.getElementById('myAnchor').href="http://shpargalkablog.ru/2011/07/uporyadochet-tablitsu-po-alfavitu.html";
+									document.getElementById('myAnchor').target="_blank";
+								}
+								function changeLink3()
+								{
+									document.getElementById('myAnchor').innerHTML="35 см, традиционное тесто, 710 г";
+									document.getElementById('myAnchor').href="http://shpargalkablog.ru/2011/07/uporyadochet-tablitsu-po-alfavitu.html";
+									document.getElementById('myAnchor').target="_blank";
+								}
+
+								function zoomin(){
+									var myImg = document.getElementById("map");
+									var currWidth = myImg.clientWidth;
+									if(currWidth == 300) return false;
+									else{
+										myImg.style.width = (currWidth = 300) + "px";
+										myImg.style.height = (currWidth = 300) + "px";
+									} 
+								}
+
+
+
+								function zoommedium(){
+									var myImg = document.getElementById("map");
+									var currWidth = myImg.clientWidth;
+									if(currWidth == 400) return false;
+									else{
+										myImg.style.width = (currWidth = 400) + "px";
+										myImg.style.height = (currWidth = 400) + "px";
+									} 
+								}
+
+								function zoommlarge(){
+									var myImg = document.getElementById("map");
+									var currWidth = myImg.clientWidth;
+									if(currWidth == 500) return false;
+									else{
+										myImg.style.width = (currWidth = 500) + "px";
+										myImg.style.height = (currWidth = 500) + "px";
+									} 
+								}
+							</script>
+
+							<!-- -->
+							<p class="card-text1" id="myAnchor">
+								30 см, традиционное тесто, 520 г
+							</p>
+							<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+						</div>
+						<div class="bloc">
+							<div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+								<input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" onclick="zoomin()">
+								<label class="btn btn-outline-primary small" for="btnradio1" onclick="changeLink1()" value="Change link" >маленькая</label>
+
+								<input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off" checked onclick="zoommedium()">
+								<label class="btn btn-outline-primary medium" for="btnradio2"onclick="changeLink2()" value="Change link" >средняя</label>
+
+								<input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off" onclick="zoommlarge()">
+								<label class="btn btn-outline-primary large" for="btnradio3" onclick="changeLink3()" value="Change link">большая</label>
+							</div>
+						</div>
+
+						<div class="dob">
+							<p>Добавить в пиццу</p>
+						</div>
+
+						<div class="dop_z">
+							<div class="row row-cols-1 row-cols-md-3 g-4">
+								
+
+								<div class="col">
+									<div class="card h-100 bob">
+										<img src="../img/Добавки/1.png" class="card-img-top" alt="...">
+										<div class="card-body">
+											<h5 class="card-title">Cырный бортик</h5>
+										</div>
+										<input type="checkbox" class="check">
+									</div>
+								</div>
+
+
+								<div class="col">
+									<div class="card h-100 bob">
+										<img src="../img/Добавки/2.png" class="card-img-top" alt="...">
+										<div class="card-body">
+											<h5 class="card-title">Моцарелла</h5>
+										</div>
+										<input type="checkbox" class="check">
+									</div>
+								</div>
+								<div class="col">
+									<div class="card h-100 bob">
+										<img src="../img/Добавки/3.png" class="card-img-top" alt="...">
+										<div class="card-body">
+											<h5 class="card-title">Сладкий перец</h5>
+										</div>
+										<input type="checkbox" class="check">
+									</div>
+								</div>
+								<div class="col">
+									<div class="card h-100 bob">
+										<img src="../img/Добавки/4.png" class="card-img-top" alt="...">
+										<div class="card-body">
+											<h5 class="card-title">Острый халапеньо</h5>
+										</div>
+										<input type="checkbox" class="check">
+									</div>
+								</div>
+								<div class="col">
+									<div class="card h-100 bob">
+										<img src="../img/Добавки/5.png" class="card-img-top" alt="...">
+										<div class="card-body">
+											<h5 class="card-title">Острый цыпленок</h5>
+										</div>
+										<input type="checkbox" class="check">
+									</div>
+								</div>
+								<div class="col">
+									<div class="card h-100 bob">
+										<img src="../img/Добавки/6.png" class="card-img-top" alt="...">
+										<div class="card-body">
+											<h5 class="card-title">Ветчина</h5>
+										</div>
+										<input type="checkbox" class="check">
+									</div>
+								</div>
+							</div>
+
+
+						</div>
+						<div class="d-grid gap-2">
+<a href="https://dodopizza.ru/krasnodar?product=11EB85C8B6450FE05435CA8FF97F3930" target="_blank"><button class="btn3 btn-primary" type="button">Добавить в корзину</button></a>
+ 
+</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script></body>
+	</html>
+
+
