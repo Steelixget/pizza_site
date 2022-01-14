@@ -1,0 +1,151 @@
+@import "NULLstyle.scss";
+
+.container-xl {
+}
+.navbar {
+
+	border-radius: 10px;
+	box-shadow: 2px 3px 5px 1px #f91;
+	//border: 1px solid #000;
+
+}
+.navbar-expand-lg {
+
+}
+.navbar-light {
+
+}
+.bg-light {
+
+}
+.container-fluid {
+
+}
+.navbar-brand {
+
+}
+.navbar-toggler {}
+.navbar-toggler-icon {
+}
+.collapse {}
+.navbar-collapse {}
+.navbar-nav {}
+.nav-item {}
+.nav-link {}
+.active {}
+.dropdown {}
+.dropdown-toggle {}
+.dropdown-menu {}
+.dropdown-item {}
+.img-thumbnail{
+
+	max-width: 100px;
+
+	box-shadow: 2px 3px 5px 1px #f91;
+	margin: 0 20px 7px 0;
+
+}
+.img-thumbnail:hover{
+	box-shadow: 2px 3px 5px 1px #591;
+}
+
+//карусель//
+
+.carousel {
+	margin: 25px auto;
+	max-width: 80%;
+
+}
+.slide {
+}
+.carousel-inner {
+	border-radius: 50px;
+}
+.carousel-item {}
+.active {}
+.card {}
+.d-block {}
+.w-100 {}
+.card-img-top {}
+.card-body {text-align: center;}
+.card-text {}
+.carousel-control-prev {}
+.carousel-control-prev-icon {}
+.visually-hidden {}
+.carousel-control-next {}
+.carousel-control-next-icon {}
+.container-xxl {
+
+}
+.fl_h2{
+//	border: 4px solid #000;
+	display:flex;
+justify-content:center;
+}
+.h2{
+	margin: 15px ;
+	//border: 1px solid #000;
+	display: inline-block;
+		font-weight: 700;
+	text-shadow: 2px 2px 1px #f91;
+
+
+}
+.h2:hover{
+		text-shadow: 2px 2px 1px #191;
+		cursor: default;
+}
+// // // // //
+//Карточки//
+.row {
+	display:flex;
+	justify-content:center;
+	box-shadow: -4px -2px 5px 4px #F0F8FF;
+}
+.row-cols-1 {}
+.row-cols-md-3 {}
+.g-4 {}
+.col {
+//border: 1px solid #000;
+	display:flex;
+	max-width: 300px;
+}
+.card._piz{
+	//border: 1px solid #000;
+	border-radius: 20px;
+	overflow: hidden;
+	max-width: 250px;
+
+}
+.card-img-top {
+}
+.card{
+	border: none;
+	//border: 1px solid rgba(0,0,0,.125);
+	box-shadow: 0 0 5px 3px rgba(0,0,0,.125);
+}
+.card-body {
+
+}
+.card-title {
+	font-size: 20px;
+	font-weight: 700;
+	text-shadow: 2px 2px 1px #f91;
+}
+.card-text {
+	text-align: justify;
+}
+
+// // // // //
+//Кнопка информации ПИцца//
+.btn:hover{
+box-shadow: 0px 1px 1px 1px #49423D;
+}
+.btn{
+width: 100%;
+}
+._pg_test{
+
+
+}
+// // // // //
