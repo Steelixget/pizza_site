@@ -1,0 +1,231 @@
+@charset "UTF-8";
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0; }
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+:focus, :active {
+  outline: none; }
+
+a:focus, a:active {
+  outline: none; }
+
+nav, footer, header, aside {
+  display: block; }
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+input, button, textarea {
+  font-family: inherit; }
+
+input::-ms-clear {
+  display: none; }
+
+button {
+  cursor: pointer; }
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0; }
+
+a, a:visited {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none; }
+
+ul li {
+  list-style: none; }
+
+img {
+  vertical-align: top; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit; }
+
+/*--------------------*/
+body{
+
+}
+.container-xl {
+}
+.navbar {
+
+  border-radius: 10px;
+  box-shadow: 2px 3px 5px 1px #f91;
+  //border: 1px solid #000;
+
+}
+.navbar-expand-lg {
+
+}
+.navbar-light {
+
+}
+.bg-light {
+
+}
+.container-fluid {
+
+}
+.navbar-brand {
+
+}
+.navbar-toggler {}
+.navbar-toggler-icon {
+}
+.collapse {}
+.navbar-collapse {}
+.navbar-nav {}
+.nav-item {}
+.nav-link {}
+.active {}
+.dropdown {}
+.dropdown-toggle {}
+.dropdown-menu {}
+.dropdown-item {}
+.img-thumbnail{
+
+  max-width: 100px;
+
+  box-shadow: 2px 3px 5px 1px #f91;
+  margin: 0 20px 7px 0;
+
+}
+.img-thumbnail:hover{
+  box-shadow: 2px 3px 5px 1px #591;
+}
+
+//карусель//
+
+.carousel {
+  margin: 25px auto;
+  max-width: 80%;
+
+}
+.slide {
+}
+.carousel-inner {
+  border-radius: 50px;
+}
+.carousel-item {}
+.active {}
+.card {}
+.d-block {}
+.w-100 {}
+.card-img-top {}
+.card-body {text-align: center;}
+.card-text {}
+.carousel-control-prev {}
+.carousel-control-prev-icon {}
+.visually-hidden {}
+.carousel-control-next {}
+.carousel-control-next-icon {}
+.container-xxl {
+
+}
+.fl_h2{
+//  border: 4px solid #000;
+  display:flex;
+justify-content:center;
+}
+.h2{
+  margin: 15px ;
+  //border: 1px solid #000;
+  display: inline-block;
+    font-weight: 700;
+  text-shadow: 2px 2px 1px #f91;
+
+
+}
+.h2:hover{
+    text-shadow: 2px 2px 1px #191;
+    cursor: default;
+}
+// // // // //
+//Карточки//
+.row {
+  display:flex;
+  justify-content:center;
+  box-shadow: -4px -2px 5px 4px #F0F8FF;
+}
+.row-cols-1 {}
+.row-cols-md-3 {}
+.g-4 {}
+.col {
+//border: 1px solid #000;
+  display:flex;
+  max-width: 300px;
+}
+.card._piz{
+  //border: 1px solid #000;
+  border-radius: 20px;
+  overflow: hidden;
+  max-width: 250px;
+
+}
+.card-img-top {
+}
+.card{
+  border: none;
+  //border: 1px solid rgba(0,0,0,.125);
+  box-shadow: 0 0 5px 3px rgba(0,0,0,.125);
+}
+.card-body {
+
+}
+.card-title {
+  font-size: 20px;
+  font-weight: 700;
+  text-shadow: 2px 2px 1px #f91;
+}
+.card-text {
+  text-align: justify;
+}
+
+// // // // //
+//Кнопка информации ПИцца//
+.btn:hover{
+box-shadow: 0px 1px 1px 1px #49423D;
+}
+.btn{
+width: 100%;
+}
+._pg_test{
+}
+
+.tabl{
+
+  margin: 15px 0 0 0;
+ // border: 1px solid #0f0;
+background-color: #222;
+  padding: 15px;
+  box-shadow: 
+}
+.f0{
+  width: 2%;
+}
+.f1{
+  width: 30%;
+}
+.f2{
+  width: 30%;
+}
+.table {}
+.table-dark {}
+.table-striped {}
